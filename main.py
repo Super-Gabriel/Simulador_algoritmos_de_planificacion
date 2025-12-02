@@ -1,7 +1,5 @@
 from algoritmos.procesos import Proceso
 from algoritmos.fifo import FIFO
-#from algoritmos.round_robin import RoundRobin # por implementar
-#from algoritmos.sjf import SJF # por implementar
 from utils import generar_procesos_ejemplo, generar_procesos_aleatorios, imprimir_resultados
 
 def main():
@@ -30,8 +28,6 @@ def main():
     
     algoritmos = [
         FIFO(),
-        #RoundRobin(quantum=quantum), #por implementar
-        #SJF() #por implementar
     ]
     
     # Ejecutar simulaciones
